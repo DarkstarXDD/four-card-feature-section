@@ -10,10 +10,10 @@
 } */
 
 body {
-    background-color: gray;
-    /* background-color: hsl(0, 0%, 98%); */
-    color: black;
-    /* color: hsl(229, 6%, 66%); */
+    /* background-color: gray; */
+    background-color: hsl(0, 0%, 98%);
+    /* color: black; */
+    color: hsl(229, 6%, 66%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .top-section {
@@ -36,7 +36,7 @@ main {
 
 .top-section__title {
     color: hsl(234, 12%, 34%);
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .top-section__title span {
@@ -45,19 +45,26 @@ main {
 
 .top-section__text {
     font-size: 15px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.card-section {
+    margin-top: 52px;
 }
 
 .card {
-    background-color: green;
-    /* background-color: white; */
+    /* background-color: green; */
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     max-width: 360px;
-    padding: 20px;
+    padding: 24px 30px;
     border-top: 4px solid black;
     border-radius: 6px;
-    margin-top: 20px;
+    box-shadow: 0 12px 18px hsl(234, 12%, 34%, 0.2);
+    margin-top: 24px;
 }
 
 .card--cyan {
@@ -79,13 +86,54 @@ main {
 
 .card__title {
     color: hsl(234, 12%, 34%);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .card__text {
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 1.7;
+    margin-top: 6px;
 }
 
 .card__icon {
+    /* background-color: brown; */
     align-self: flex-end;
+    margin-top: 34px;
+}
+
+
+@media (min-width: 650px) {
+    .card-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .card-section {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .card--cyan {
+        grid-row: 2 / span 2;
+    }
+
+    .card--red {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+
+    .card--orange {
+        grid-column: 2;
+        grid-row: 3 / span 2;
+    }
+
+    .card--blue {
+        grid-column: 3;
+        grid-row: 2 / span 2;
+    }
 }
