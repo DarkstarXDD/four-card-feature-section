@@ -24,9 +24,9 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Built with
 
-- HTML5 / CSS
-- CSS Flexbox
-- CSS Grid
+- React
+- Grid
+- Flexbox
 - Mobile first approach
 
 #
