@@ -5,9 +5,9 @@
 }
 
 body {
-  /* background-color: hsl(0, 0%, 98%); */
-  background-color: gray;
-  color: hsl(229, 6%, 66%);
+  background-color: hsl(0, 0%, 98%);
+  /* color: hsl(229, 6%, 66%); */
+  color: #3e4046;
   min-height: 100vh;
   display: flex;
   justify-content: center;
