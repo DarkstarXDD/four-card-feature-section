@@ -7,8 +7,8 @@ export default function Card(props) {
         className="card__icon"
         src={props.cardImg}
         alt=""
-        width="56px"
-        height="56px"
+        width="64px"
+        height="64px"
       />
     </div>
   )
