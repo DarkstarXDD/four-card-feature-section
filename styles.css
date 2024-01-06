@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 200;
+  src: local("Poppins"), local("Poppins-ExtraLight"),
+    url(./src/assets/fonts/poppins-extralight-webfont.woff2) format(woff2),
+    url(./src/assets/fonts/poppins-extralight-webfont.woff) format(woff);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: local("Poppins"), local("Poppins-Regular"),
+    url(./src/assets/fonts/poppins-regular-webfont.woff2) format(woff2),
+    url(./src/assets/fonts/poppins-regular-webfont.woff) format(woff);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  src: local("Poppins"), local("Poppins-SemiBold"),
+    url(./src/assets/fonts/poppins-semibold-webfont.woff2) format(woff2),
+    url(./src/assets/fonts/poppins-semibold-webfont.woff) format(woff);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +30,7 @@
 
 body {
   background-color: hsl(0, 0%, 98%);
-  /* color: hsl(229, 6%, 66%); */
+  /* Style-guide color was hsl(229, 6%, 66%). I changed it to below for better contrast */
   color: #3e4046;
   min-height: 100vh;
   display: flex;
