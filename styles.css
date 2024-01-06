@@ -53,7 +53,7 @@ main {
 
 .top-section__title {
   color: hsl(234, 12%, 34%);
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .top-section__title span {
@@ -61,7 +61,7 @@ main {
 }
 
 .top-section__text {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.6;
   margin-top: 20px;
 }
@@ -101,11 +101,11 @@ main {
 
 .card__title {
   color: hsl(234, 12%, 34%);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .card__text {
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.7;
   margin-top: 7px;
 }
@@ -119,6 +119,8 @@ main {
   margin-top: 34px;
 }
 
+/* ------------ Media Queries ------------ */
+
 @media (min-width: 650px) {
   .card-section {
     display: grid;
@@ -130,13 +132,11 @@ main {
 
 @media (min-width: 1100px) {
   .top-section__title {
-    font-size: 36.5px;
+    font-size: 2.2812rem;
     line-height: 1.4;
   }
 
   .top-section__text {
-    font-size: 15px;
-    line-height: 1.6;
     margin-top: 16px;
   }
 
@@ -174,8 +174,6 @@ main {
   }
 
   .card__text {
-    font-size: 13px;
-    line-height: 1.7;
     margin-top: 8px;
   }
 
