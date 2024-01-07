@@ -11,15 +11,15 @@ This is my solution to the [Four Card Feature Section challenge on FrontendMento
 
 ### Links 🔗
 
-- Live Site URL: [URL]
-- Solution URL: [URL]
+- Live Site URL: https://four-card-feature-section-darkstarxdd.vercel.app/
+- Solution URL: https://www.frontendmentor.io/solutions/four-card-feature-section-CapfWOj33L
 
 #
 
 ### Features 🎉
 
 - Mobile Responsive 📱
-- Self-hosted Fonts for Better Performance 🔡
+- Self-hosted Fonts 🔡
 - PWA (Progressive Web App) 📱
 
 #
